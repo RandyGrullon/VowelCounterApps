@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "VowelsCounterApp/1.0.0": {
+        "dependencies": {
+          "RG.VowelsCounter": "1.0.0"
+        },
+        "runtime": {
+          "VowelsCounterApp.dll": {}
+        }
+      },
+      "RG.VowelsCounter/1.0.0": {
+        "runtime": {
+          "lib/net5.0/Counter.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "VowelsCounterApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RG.VowelsCounter/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GphCY04RWtnft5UNgNBEwn5mhV/pl8Zcc34G+wA3KOuAcCU49ZbGtz9KQj37iV7pAadae95lvxLHVN46djFj3w==",
+      "path": "rg.vowelscounter/1.0.0",
+      "hashPath": "rg.vowelscounter.1.0.0.nupkg.sha512"
+    }
+  }
+}
