@@ -1,11 +1,36 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "RG.VowelsCounter/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Counter.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Counter.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "RG.VowelsCounter/1.0.0": {
+      "sha512": "GphCY04RWtnft5UNgNBEwn5mhV/pl8Zcc34G+wA3KOuAcCU49ZbGtz9KQj37iV7pAadae95lvxLHVN46djFj3w==",
+      "type": "package",
+      "path": "rg.vowelscounter/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net5.0/Counter.dll",
+        "rg.vowelscounter.1.0.0.nupkg.sha512",
+        "rg.vowelscounter.nuspec"
+      ]
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0": [
+      "RG.VowelsCounter >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\randy\\.nuget\\packages\\": {}
@@ -45,6 +70,12 @@
     "frameworks": {
       "net5.0": {
         "targetAlias": "net5.0",
+        "dependencies": {
+          "RG.VowelsCounter": {
+            "target": "Package",
+            "version": "[1.0.0, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",

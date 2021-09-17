@@ -6,32 +6,32 @@ namespace VowelsCounterApp
     {
         static void Main(string[] args)
         {
-            InputTextToVowelCount();
+            InputValueToVowelCounted();
         }
-        public static void InputTextToVowelCount()
+        
+        public static void InputValueToVowelCounted()
         {
-
-            string input = string.Empty;
-            while (input != "N")
+            string ValueT = "";
+            while(ValueT != "S")
             {
-                Console.WriteLine("Escriba un texto para contentar sus vocales.");
-                input = Console.ReadLine();
-                var vowels = Counter.VowelsCounter.Count(input);
-                if (vowels.Count == 0)
+                Console.WriteLine("Escriba Cualquier palabra");
+                ValueT = Console.ReadLine();
+
+                var Vowels = Counter.VowelsCounter.Count(ValueT);
+                if (Vowels.Count == 0)
                 {
-                    Console.WriteLine($"Esta lista esta vacia su entrada fue ({input})");
+                    Console.WriteLine($"Lista vacia Entrada: ({ValueT})");
                 }
                 else
                 {
-                    foreach (var item in vowels)
+                    foreach (var item in Vowels)
                     {
-                        Console.WriteLine($"{{{item.Key}:{item.Value}}}\n");
+                        Console.WriteLine($"++{item.Key} : {item.Value}++");
                     }
                 }
-                Console.WriteLine("Para Salir Digite la letra *(N)*");
-                input = Console.ReadLine();
+                Console.WriteLine("Salir Presione ++{S}++");
+                ValueT = Console.ReadLine();
             }
-
         }
     }
 }

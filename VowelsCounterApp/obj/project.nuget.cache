@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "i+LKdo8ESAeKV8Lhn6aSe64p/DSf95KIWyqb+ZqjkUxzhIsHDacDjbzfpItb92hbOTr/DaNyDz1jb+DmqZ0BoQ==",
+  "dgSpecHash": "/4mcomfIqOVEvvNtzRM68hiOZldsk2lfliW9iOlTuf5AcY2kgp7IlXhu7aK5Phfu8CCwOp1iYRVRI65onrDqqw==",
   "success": true,
   "projectFilePath": "C:\\Users\\randy\\Desktop\\Todo\\code\\Tendencias 3videos\\VowelCounterApp\\VowelsCounterApp\\VowelsCounterApp\\VowelsCounterApp.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\randy\\.nuget\\packages\\rg.vowelscounter\\1.0.0\\rg.vowelscounter.1.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
